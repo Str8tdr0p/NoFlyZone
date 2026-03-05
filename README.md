@@ -28,7 +28,7 @@ The 8-character hex ID is a hardware-validated routing identifier. Decoded consi
 
 **`Nexus_Ratchet_777.csv`** — the targeting list, ordered from commanding heights down to disposable egress:
 
-* **NEXUS_CTL:** The controllers. Anchored within restricted US DoD (AS749) network blocks.
+* **NEXUS_CTL:** The controllers. Anchored within restricted US DoD network blocks.
 * **SHADOW_BRIDGE:** Strategic transit through Tier-1 global carriers. The handshake happens here, invisibly.
 * **SHADOW_EXIT:** The egress mesh. Where data hits the floor. Rostelecom. Chinanet. Et al.
 
