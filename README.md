@@ -40,8 +40,7 @@ The 8-character hex ID is a hardware-validated routing identifier. Decoded consi
 
 Drop 2 is a different kind of signal. Two structured datasets from deeper behavioral analysis of the same telemetry corpus. Deduplicated. Normalized. Scoped to observed active connections only.
 
-**`connections.csv`** — per-endpoint IOCs with interface and process attribution:
-* Interface at time of observation: `WIFI` or `CELL (pdp_ip0)`
+**`connections.csv`** — per-endpoint IOCs with process attribution:
 * Connection attributed to specific system process: `mDNSResponder`, `CFNetwork`, `symptomsd`, `cloudd`, `tipsd`, `Siri`, `shortcuts Extension`, `networkd`
 * Several of these processes have no legitimate reason to be reaching out. They are.
 
